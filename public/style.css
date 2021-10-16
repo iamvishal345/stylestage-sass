@@ -105,6 +105,15 @@ ol {
   padding: 0;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  *, *::after, *::before {
+    animation-duration: 1ms !important;
+    animation-delay: -1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    transition-delay: -1ms !important;
+  }
+}
 header {
   padding: 2rem;
 }
