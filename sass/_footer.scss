@@ -36,7 +36,7 @@
         &:focus,
         &:active {
           background-color: var(--green-tint);
-          outline: none;
+          outline: 1px solid;
         }
         &:after {
           display: none !important;
