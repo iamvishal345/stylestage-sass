@@ -31,11 +31,14 @@ header {
       display: flex;
       align-items: center;
       gap: 8px;
-      &:hover,
+      &:hover{
+        background-color: var(--green-tint);
+      }
       &:focus,
       &:active {
         background-color: var(--green-tint);
-        outline: 1px solid;
+        outline: 2px solid;
+        outline-offset: 2px;
       }
       &:after {
         display: none !important;

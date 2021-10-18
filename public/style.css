@@ -152,9 +152,13 @@ header .container .link-github {
   align-items: center;
   gap: 8px;
 }
-header .container .link-github:hover, header .container .link-github:focus, header .container .link-github:active {
+header .container .link-github:hover {
   background-color: var(--green-tint);
-  outline: 1px solid;
+}
+header .container .link-github:focus, header .container .link-github:active {
+  background-color: var(--green-tint);
+  outline: 2px solid;
+  outline-offset: 2px;
 }
 header .container .link-github:after {
   display: none !important;
@@ -289,9 +293,13 @@ nav ul li a:after {
   cursor: pointer;
   transition: var(--transition);
 }
-#files .container a:hover, #files .container a:focus, #files .container a:active {
+#files .container a:hover {
   background-color: var(--green-tint);
-  outline: 1px solid;
+}
+#files .container a:focus, #files .container a:active {
+  background-color: var(--green-tint);
+  outline: 2px solid;
+  outline-offset: 2px;
 }
 #files .container a:after {
   display: none !important;
@@ -337,9 +345,13 @@ nav ul li a:after {
   cursor: pointer;
   transition: var(--transition);
 }
-.profile .container > a:hover, .profile .container > a:focus, .profile .container > a:active {
+.profile .container > a:hover {
   background-color: var(--green-tint);
-  outline: 1px solid;
+}
+.profile .container > a:focus, .profile .container > a:active {
+  background-color: var(--green-tint);
+  outline: 2px solid;
+  outline-offset: 2px;
 }
 .profile .container > a:after {
   display: none !important;
@@ -389,9 +401,13 @@ nav ul li a:after {
   transition: var(--transition);
   width: 100%;
 }
-.page-footer .container ul a:hover, .page-footer .container ul a:focus, .page-footer .container ul a:active {
+.page-footer .container ul a:hover {
   background-color: var(--green-tint);
-  outline: 1px solid;
+}
+.page-footer .container ul a:focus, .page-footer .container ul a:active {
+  background-color: var(--green-tint);
+  outline: 2px solid;
+  outline-offset: 2px;
 }
 .page-footer .container ul a:after {
   display: none !important;
@@ -463,10 +479,10 @@ a:after {
   width: 0;
   height: 2px;
   position: relative;
-  bottom: 0.37em;
+  bottom: 0.2em;
   background-color: var(--green);
   transition: var(--transition);
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 #styles {
@@ -545,9 +561,13 @@ a:after {
   cursor: pointer;
   transition: var(--transition);
 }
-#styles .container > a:hover, #styles .container > a:focus, #styles .container > a:active {
+#styles .container > a:hover {
   background-color: var(--green-tint);
-  outline: 1px solid;
+}
+#styles .container > a:focus, #styles .container > a:active {
+  background-color: var(--green-tint);
+  outline: 2px solid;
+  outline-offset: 2px;
 }
 #styles .container > a:after {
   display: none !important;
