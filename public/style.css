@@ -96,7 +96,7 @@ main {
 }
 @media (max-width: 768px) {
   main {
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 }
 
@@ -115,7 +115,7 @@ ol {
   }
 }
 header {
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 header .container {
   display: flex;
@@ -367,7 +367,7 @@ nav ul li a:after {
 }
 @media (max-width: 768px) {
   .page-footer {
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 }
 .page-footer .container {
@@ -495,7 +495,7 @@ a:after {
 }
 @media (max-width: 768px) {
   #styles {
-    padding: 2rem;
+    padding: 2rem 1rem;
   }
 }
 #styles .container {
